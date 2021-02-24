@@ -7,7 +7,7 @@ use fnv::FnvHashMap;
 
 // this is the main loop for the ui
 pub fn tui() {
-	println!("Welcome to Onielo");
+	println!("Welcome to Othello");
     let mut hashmap: FnvHashMap<(u64, u64), (i16, u8)> = FnvHashMap::default();
     hashmap.reserve(100000000);
 	let mut players = 0;
