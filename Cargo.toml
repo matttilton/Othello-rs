@@ -1,0 +1,19 @@
+[package]
+name = "othello-gui"
+version = "0.1.0"
+authors = ["matttilton <mtilton1996@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+conrod_glium = "0.71.0"
+conrod_core = "0.71.0"
+conrod_winit = "0.71.0"
+find_folder = "0.3.0"
+glium = "0.28"
+image = "0.22"
+winit = "0.23"
+rand = "0.7"
+rayon = "1.5"
+fnv = "1.0.7"
